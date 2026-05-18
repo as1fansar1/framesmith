@@ -1,0 +1,38 @@
+[
+  {
+    "id": "001-hook",
+    "start": 0,
+    "end": 7,
+    "duration_seconds": 7
+  },
+  {
+    "id": "002-evidence",
+    "start": 7,
+    "end": 17,
+    "duration_seconds": 10
+  },
+  {
+    "id": "003-meaning",
+    "start": 17,
+    "end": 25,
+    "duration_seconds": 8
+  },
+  {
+    "id": "004-skill-definition",
+    "start": 25,
+    "end": 35,
+    "duration_seconds": 10
+  },
+  {
+    "id": "005-why-it-matters",
+    "start": 35,
+    "end": 46,
+    "duration_seconds": 11
+  },
+  {
+    "id": "006-cta",
+    "start": 46,
+    "end": 55,
+    "duration_seconds": 9
+  }
+]

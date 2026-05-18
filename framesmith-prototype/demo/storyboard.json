@@ -1,0 +1,74 @@
+{
+  "title": "The fastest-growing AI repos are not apps — they are skills",
+  "duration_seconds_target": 55,
+  "aspect_ratio": "9:16",
+  "style": "premium-research-explainer",
+  "scenes": [
+    {
+      "id": "001-hook",
+      "type": "hook",
+      "duration_seconds": 7,
+      "voiceover": "The fastest-growing AI repos on GitHub right now are not just new apps. They are skills.",
+      "headline": "The fastest-growing AI repos are not apps.",
+      "body": "They are skills.",
+      "visual": "Large kinetic text. Word 'skills' glows in accent green.",
+      "source_ref": "source/extracted.md#main-themes-1",
+      "citation_visible": false
+    },
+    {
+      "id": "002-evidence",
+      "type": "evidence",
+      "duration_seconds": 10,
+      "voiceover": "Repos like Matt Pocock's engineering skills, Karpathy-inspired Claude guidelines, and Addy Osmani's agent skills are all pointing at the same shift.",
+      "headline": "The evidence is in the repo list",
+      "body": "mattpocock/skills · andrej-karpathy-skills · addyosmani/agent-skills",
+      "visual": "Three GitHub-style repo cards stack vertically with star-count badges.",
+      "source_ref": "source/extracted.md#evidence-snapshot",
+      "citation_visible": true
+    },
+    {
+      "id": "003-meaning",
+      "type": "claim",
+      "duration_seconds": 8,
+      "voiceover": "AI agents are moving from one-off prompts to reusable operating procedures.",
+      "headline": "From prompts → operating procedures",
+      "body": "Reusable instructions. Repeatable workflows. Better agent behavior.",
+      "visual": "Prompt bubble transforms into checklist cards.",
+      "source_ref": "source/extracted.md#most-important-trend",
+      "citation_visible": false
+    },
+    {
+      "id": "004-skill-definition",
+      "type": "framework",
+      "duration_seconds": 10,
+      "voiceover": "A skill tells the agent how to plan, review code, avoid overengineering, write better docs, or follow a repeatable workflow.",
+      "headline": "What does a skill do?",
+      "body": "Plan · Review · Test · Document · Repeat",
+      "visual": "Five compact capability cards arranged in a clean grid.",
+      "source_ref": "source/extracted.md#interpreted-short-summaries",
+      "citation_visible": false
+    },
+    {
+      "id": "005-why-it-matters",
+      "type": "shift",
+      "duration_seconds": 11,
+      "voiceover": "That matters because the bottleneck is no longer just model intelligence. It is reliability. The bigger pattern is spreading into design, video, security, and finance.",
+      "headline": "The bottleneck is reliability",
+      "body": "Better models help. Better workflows compound.",
+      "visual": "Two-column comparison: Model Intelligence vs Workflow Reliability.",
+      "source_ref": "source/extracted.md#big-themes",
+      "citation_visible": false
+    },
+    {
+      "id": "006-cta",
+      "type": "cta",
+      "duration_seconds": 9,
+      "voiceover": "So the thing to watch is not just which AI app trends next. Watch the workflow layer that teaches agents how to work.",
+      "headline": "Watch the workflow layer",
+      "body": "Follow for practical AI workflow breakdowns.",
+      "visual": "Layer diagram: models → agents → skills → artifacts.",
+      "source_ref": "source/extracted.md#main-themes",
+      "citation_visible": false
+    }
+  ]
+}

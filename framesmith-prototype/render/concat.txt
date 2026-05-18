@@ -1,0 +1,12 @@
+file '/Users/asifansari/Desktop/Coding/may18_remix_creatorstudio/framesmith-prototype/render/scenes/001-hook.png'
+duration 7
+file '/Users/asifansari/Desktop/Coding/may18_remix_creatorstudio/framesmith-prototype/render/scenes/002-evidence.png'
+duration 10
+file '/Users/asifansari/Desktop/Coding/may18_remix_creatorstudio/framesmith-prototype/render/scenes/003-meaning.png'
+duration 8
+file '/Users/asifansari/Desktop/Coding/may18_remix_creatorstudio/framesmith-prototype/render/scenes/004-skill-definition.png'
+duration 10
+file '/Users/asifansari/Desktop/Coding/may18_remix_creatorstudio/framesmith-prototype/render/scenes/005-why-it-matters.png'
+duration 11
+file '/Users/asifansari/Desktop/Coding/may18_remix_creatorstudio/framesmith-prototype/render/scenes/006-cta.png'
+duration 9

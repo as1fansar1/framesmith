@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    :root {
+      --bg: #080A0F;
+      --surface: #111827;
+      --primary: #7CDAFF;
+      --accent: #B7FF5A;
+      --text: #F5F7FA;
+      --muted: #94A3B8;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--text); background: radial-gradient(circle at 20% 10%, rgba(124,218,255,.25), transparent 28%), radial-gradient(circle at 90% 25%, rgba(183,255,90,.16), transparent 24%), var(--bg); }
+    .frame { position: relative; width: 1080px; height: 1920px; padding: 96px 76px; display: flex; flex-direction: column; justify-content: space-between; }
+    .grid-bg { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 54px 54px; mask-image: linear-gradient(to bottom, black, transparent 90%); }
+    .top { position: relative; display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 28px; letter-spacing: .12em; text-transform: uppercase; }
+    .brand { color: var(--primary); }
+    .content { position: relative; margin-top: 80px; }
+    .kicker { color: var(--accent); font-size: 30px; font-weight: 800; letter-spacing: .14em; margin-bottom: 36px; }
+    h1 { font-size: 72px; line-height: .98; letter-spacing: -0.06em; margin: 0; text-wrap: balance; }
+    h1 .accent, .skills-word { color: var(--accent); text-shadow: 0 0 36px rgba(183,255,90,.35); }
+    .body { font-size: 40px; line-height: 1.22; color: var(--muted); margin-top: 34px; max-width: 900px; }
+    .visual { margin-top: 54px; }
+    .repo-grid { display: grid; gap: 22px; }
+    .repo-card, .capability, .compare > div, .bubble, .checklist, .layer { border: 1px solid rgba(255,255,255,.12); background: rgba(17,24,39,.78); box-shadow: 0 24px 80px rgba(0,0,0,.28); backdrop-filter: blur(18px); border-radius: 28px; }
+    .repo-card { padding: 30px; }
+    .repo-name { font-size: 34px; font-weight: 850; color: var(--text); }
+    .repo-meta { margin-top: 16px; color: var(--muted); font-size: 26px; display: flex; justify-content: space-between; }
+    .capability-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+    .capability { padding: 30px; font-size: 38px; font-weight: 850; text-align: center; }
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .compare > div { padding: 34px; min-height: 190px; }
+    .compare b { font-size: 33px; display:block; color: var(--primary); }
+    .compare span { display:block; margin-top: 24px; font-size: 30px; color: var(--muted); }
+    .transform { display:flex; align-items:center; gap:22px; }
+    .bubble, .checklist { padding: 30px; font-size: 30px; }
+    .arrow { color: var(--accent); font-size: 58px; font-weight: 900; }
+    .checklist { display:grid; gap:12px; color: var(--accent); }
+    .layers { display:grid; gap:18px; }
+    .layer { padding: 24px 34px; font-size: 34px; font-weight: 850; transform: translateX(calc(var(--i) * 36px)); border-color: rgba(124,218,255,.22); }
+    .citation { position: relative; color: var(--muted); font-size: 22px; margin-top: 28px; padding: 18px 22px; border-left: 4px solid var(--primary); background: rgba(124,218,255,.08); border-radius: 12px; }
+    .caption { position: relative; font-size: 34px; line-height: 1.25; color: var(--text); background: rgba(0,0,0,.45); border: 1px solid rgba(255,255,255,.1); border-radius: 24px; padding: 24px 28px; box-shadow: 0 18px 60px rgba(0,0,0,.24); }
+    .progress { position: absolute; left: 76px; right: 76px; bottom: 52px; height: 8px; background: rgba(255,255,255,.1); border-radius: 999px; overflow: hidden; }
+    .progress span { display:block; width: 67%; height: 100%; background: linear-gradient(90deg, var(--primary), var(--accent)); }
+  </style>
+</head>
+<body>
+  <main class="frame">
+    <div class="grid-bg"></div>
+    <section class="top"><span class="brand">Asif&#39;s AI Notes</span><span>04 / 06</span></section>
+    <section class="content">
+      <div class="kicker">FRAMEWORK</div>
+      <h1>What does a skill do?</h1>
+      <p class="body">Plan · Review · Test · Document · Repeat</p>
+      <div class="visual"><div class="capability-grid"><div class="capability">Plan</div><div class="capability">Review</div><div class="capability">Test</div><div class="capability">Document</div><div class="capability">Repeat</div></div></div>
+      
+    </section>
+    <section class="caption">A skill tells the agent how to plan, review code, avoid overengineering, write better docs, or follow a repeatable workflow.</section>
+    <div class="progress"><span></span></div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "brand_name": "Asif's AI Notes",
+  "voice": "clear, curious, confident, practical, not hypey",
+  "audience": "technical founders, indie hackers, and AI builders",
+  "colors": {
+    "background": "#080A0F",
+    "surface": "#111827",
+    "primary": "#7CDAFF",
+    "accent": "#B7FF5A",
+    "text": "#F5F7FA",
+    "muted": "#94A3B8"
+  },
+  "font_style": "modern sans",
+  "logo_path": null,
+  "cta_style": "soft follow for practical AI workflow breakdowns"
+}
