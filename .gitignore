@@ -1,2 +1,12 @@
 node_modules/
 .DS_Store
+
+# Prototype transient render intermediates
+framesmith-prototype/render/segments/
+framesmith-prototype/render/segments.txt
+framesmith-prototype/render/video-silent.mp4
+framesmith-prototype/render/voiceover-provider.txt
+framesmith-prototype/render/voiceover-script.txt
+framesmith-prototype/render/narration-for-tts.txt
+framesmith-prototype/render/voiceover.aiff
+framesmith-prototype/render/voiceover.mp3

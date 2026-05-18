@@ -12,7 +12,7 @@ async function main() {
   if (storyboard.scenes.some(scene => !scene.source_ref.trim())) {
     throw new Error('Every scene must have a source_ref.');
   }
-  const required = ['exports/video.mp4', 'exports/thumbnail.png', 'exports/social-copy.md', 'render/captions.srt'];
+  const required = ['exports/video.mp4', 'exports/thumbnail.png', 'exports/social-copy.md', 'exports/captions.srt', 'exports/voiceover.mp3', 'render/captions.srt'];
   for (const path of required) {
     if (!(await exists(path))) throw new Error(`Missing ${path}`);
   }

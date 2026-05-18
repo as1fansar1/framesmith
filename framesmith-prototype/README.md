@@ -16,17 +16,26 @@ npx playwright install chromium
 npm run demo
 ```
 
+Optional BYOK cloud voiceover:
+
+```bash
+OPENAI_API_KEY=sk-... npm run demo
+```
+
+Without an OpenAI key, the prototype falls back to macOS `say` when available, then to silent audio. The fallback keeps the pipeline runnable locally.
+
 Outputs:
 
 ```text
 exports/video.mp4
 exports/thumbnail.png
+exports/voiceover.mp3
 exports/social-copy.md
 exports/captions.srt
 ```
 
 ## Notes
 
-- This prototype intentionally skips LLM generation and BYOK TTS.
-- The demo uses hand-authored `demo/storyboard.json` and static/HTML-rendered scene cards.
+- This prototype now includes light FFmpeg-based motion and an optional BYOK OpenAI TTS path.
+- The demo uses hand-authored `demo/storyboard.json` and HTML-rendered scene cards.
 - The purpose is to judge whether the structured project-folder + renderer pipeline can produce a private-demo-quality artifact.

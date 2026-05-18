@@ -6,7 +6,7 @@ async function main() {
   await mkdir('render', { recursive: true });
   let cursor = 0;
   const srt: string[] = [];
-  const timings = [];
+  const timings: Array<{ id: string; start: number; end: number; duration_seconds: number }> = [];
   const narration: string[] = [`# ${storyboard.title}`, ''];
 
   storyboard.scenes.forEach((scene, index) => {

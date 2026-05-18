@@ -5,8 +5,12 @@
   "type": "module",
   "scripts": {
     "demo": "npm run render && npm run validate",
-    "validate": "tsx src/validate.ts",
-    "render": "tsx src/render-scenes.ts && tsx src/make-captions.ts && tsx src/make-video.ts"
+    "render": "tsx src/render-scenes.ts && tsx src/make-captions.ts && tsx src/make-voice.ts && tsx src/make-video.ts",
+    "render:scenes": "tsx src/render-scenes.ts",
+    "captions": "tsx src/make-captions.ts",
+    "voice": "tsx src/make-voice.ts",
+    "video": "tsx src/make-video.ts",
+    "validate": "tsx src/validate.ts"
   },
   "dependencies": {
     "@playwright/test": "latest",
@@ -15,5 +19,7 @@
     "typescript": "latest",
     "zod": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^25.8.0"
+  }
 }
